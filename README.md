@@ -18,3 +18,9 @@ This project explores spam classification using **Bernoulli and Multinomial Naiv
    - Investigation of the mathematical and probabilistic implications of different feature representations, particularly the use of TF-IDF with Multinomial Naive Bayes.
 
 The project combines mathematical analysis, implementation, and experimental comparisons to investigate how modeling assumptions and feature representations influence classification performance.
+
+# Interesting
+Unlike many machine-learning models, Naive Bayes does *not* require iterative optimization during training. For the models considered here, the *maximum-likelihood estimators* of the parameters can be derived in closed form. Thus, there is no gradient descent, learning rate, or sequence of training epochs: once the form of the optimal estimators is known, fitting the model amounts to computing the corresponding statistics from the training data.
+
+We include a short mathematical note deriving these estimators, with particular emphasis on the probabilistic modelling assumptions behind Bernoulli and Multinomial Naive Bayes.
+
