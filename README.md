@@ -22,5 +22,5 @@ The project combines mathematical analysis, implementation, and experimental com
 # Interesting
 Unlike many machine-learning models, Naive Bayes does *not* require iterative optimization during training. For the models considered here, the *maximum-likelihood estimators* of the parameters can be derived in closed form. Thus, there is no gradient descent, learning rate, or sequence of training epochs: once the form of the optimal estimators is known, fitting the model amounts to computing the corresponding statistics from the training data.
 
-We include a short mathematical note deriving these estimators, with particular emphasis on the probabilistic modelling assumptions behind Bernoulli and Multinomial Naive Bayes. See `Naive_Bayes-MLE.pdf`.
+We include a short mathematical note deriving the maximum-likelihood estimators for Bernoulli and Multinomial Naive Bayes. The emphasis is on the underlying probabilistic modelling assumptions and on how they lead to the closed-form formulas used by the models. See `Naive_Bayes-MLE.pdf`.
 
