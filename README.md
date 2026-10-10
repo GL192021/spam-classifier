@@ -20,7 +20,7 @@ This project explores spam classification using **Bernoulli and Multinomial Naiv
 The project combines mathematical analysis, implementation, and experimental comparisons to investigate how modeling assumptions and feature representations influence classification performance.
 
 ## Closed-Form MLE Estimators
-Unlike many machine-learning models, Naive Bayes does *not* require iterative optimization during training. For the models considered here, the *maximum-likelihood estimators* of the parameters can be derived in closed form. Thus, there is no gradient descent, learning rate, or sequence of training epochs: once the form of the optimal estimators is known, fitting the model amounts to computing the corresponding statistics from the training data.
+Unlike many machine-learning models, Naive Bayes does *not* require iterative optimization during training. For the models considered here, the *maximum-likelihood estimators* of the parameters can be derived in *closed form*. Thus, there is no gradient descent, learning rate, or sequence of training epochs. Once the form of the optimal estimators is known, fitting the model amounts to computing the corresponding statistics from the training data.
 
 We include a short mathematical note deriving the maximum-likelihood estimators for Bernoulli and Multinomial Naive Bayes. The emphasis is on the underlying probabilistic modelling assumptions and on how they lead to the closed-form formulas used by the models. See `Naive_Bayes-MLE.pdf`.
 
